@@ -1,0 +1,12 @@
+{
+  "accountDS": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "dr",
+    "password": "coderslab",
+    "name": "accountDS",
+    "user": "pawel2",
+    "connector": "postgresql"
+  }
+}

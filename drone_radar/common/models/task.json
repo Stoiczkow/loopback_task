@@ -1,0 +1,36 @@
+{
+  "name": "Task",
+  "plural": "Tasks",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "start_date": {
+      "type": "date",
+      "required": true
+    },
+    "stop_date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "is_done": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+	"user": {
+      "type": "belongsTo",
+      "model": "User_1",
+      "foreignKey": "user1Id"
+}
+  },
+  "acls": [],
+  "methods": {}
+}
